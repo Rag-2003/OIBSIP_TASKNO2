@@ -1,0 +1,573 @@
+body{
+    background-color: rgb(7, 0, 0);
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+   
+   
+}.first{
+    background-position: 100%;
+    background-size: cover;
+    height:100vh;
+    padding-top: 0px;
+    padding-left:0px;
+    width: 100%;
+}
+.first:hover{
+    background-color:grey;
+    width:100%;
+   background-size: cover;
+    transition:.8s;
+}
+span{
+    color:rgb(0, 157, 255);
+    border:5px solid rgb(235, 234, 239);
+    border-radius: 30px;
+    padding:5px 15px;
+    background-color:black;
+    font-size:30px;    
+} nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2px 0px;
+    background-color:grey;
+    width:100%;  
+}
+nav a{
+    text-decoration: none;
+    color:antiquewhite;
+    font-size: 100%;
+}
+.subscribebtn{
+    background-color: rgb(199, 225, 238);
+    color:aliceblue;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight:bold;
+    padding:10px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.subscribebtn a:hover{
+    transform:scale(1.2);
+}
+nav ul li {
+     list-style: none;
+     display:inline-block;
+     padding-left:0px;
+    padding-right:0px;
+    margin-left: 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+    justify-content: space-between;
+    padding:4px 30px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-transform: capitalize;
+    color:rgb(111, 0, 255);
+}
+.introduction{
+    position: absolute;
+    top: 60%;
+    left:8%;
+    transform:translateY(-50%);
+    align-items: center;
+    justify-content: center;
+    display:inline-block;   
+}
+.introduction h1{
+    color:rgb(0, 170, 255);
+    font-size: 75px;   
+}
+.introduction h4{
+color:white;
+letter-spacing: 1px;
+font-size: 40px;
+}
+.introduction h3{
+    font-size:30px;
+}
+.introduction a{  
+    background-color: rgb(0, 200, 255);
+    color:rgb(252, 251, 250);
+    border-radius: 30px;
+    margin-top: 70px;
+    padding: 5px 15px;
+    align-items: center;
+    justify-content: center;
+    display:inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.introduction a:hover{
+    color:white;
+    border:2px solid rgb(179, 179, 7);
+    background-color: black;
+    transition: .9s;
+}
+
+
+/* About Section CSS starts*/
+
+
+.aboutme{
+    height:100vh;
+    width:100%;
+    padding:100px 0px;
+    background-color:black;  
+}
+.aboutme:hover{
+    background-color:grey;
+    transition:.8s;
+}
+.aboutme img{
+    height:auto;
+    width:430px;
+}
+.main{ 
+    display:flex;
+    max-width:95%;
+    margin:0 auto;
+    align-items:center;
+    justify-content: space-around;
+}
+.aboutmetext{ 
+    align-content: center;
+    justify-content: center;
+    padding:20px 100px;
+    line-height: 30px;
+}
+.aboutmetext h2{
+    color:rgb(0, 157, 255);
+    font-size:75px;
+    text-transform: capitalize;
+}
+.aboutmetext h4{
+    font-size:22px;
+}
+.aboutmetext p{
+    color:rgb(207, 198, 157);
+    letter-spacing:1px;
+    line-height:25px;
+    font-size:18px;
+    margin-bottom: 65px;
+}
+button{
+    background-color:rgb(0, 217, 255);
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 30px;
+    padding:3px 30px;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+button:hover{
+    background-color:black;
+    border:2px solid rgb(0, 213, 255);
+    color:white;
+    transition:.5s;
+}
+
+/*   Skills Section CSS Starts   */
+
+.skills{
+   display:inline-block;
+    margin:40px 0px;
+    width:100%;
+    height:100vh;
+    background-color:black;
+}
+.skills:hover{
+    background-color:grey;
+    transition:.8s;
+}
+.skills h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+   margin-left: 550px;
+   margin-right: 550px;
+   padding-left:120px;
+   padding-top:10px;
+   background-color:rgb(0, 238, 255);
+   border-radius: 30px; 
+   border:2px solid black;
+   color:white;
+}
+.skills h1:hover{
+    border:2px solid rgb(0, 200, 255);
+    background-color: black;
+    color:white;
+    transition:.5s;
+}
+.teamwork{
+    display:inline-block;
+    margin:5px 10px;
+    padding:10px 30px;
+    width:27%;
+    height:65%;
+    background-color: rgb(63, 62, 62);
+   color:white;
+   border:2px solid rgb(0, 200, 255);  
+}
+.teamwork:hover{
+    background-color:black;
+    border:3px solid rgb(0, 242, 255);
+    color:rgb(0, 183, 255);
+    box-shadow:10px 10px 40px 10px white;
+}
+.teamwork h2{
+    background-color:black;
+    color:white;
+    border-radius:35px;
+    height:50px;
+    padding:0px 125px;
+    padding-top:20px;
+    box-shadow: 3px 3px 3px 3px rgb(0, 217, 255);
+    border:2px solid rgb(0, 208, 255);
+    font-size:30px;   
+}
+.teamwork p{
+    font-size:20px;
+}
+.teamwork button{
+    margin-top:50px;
+    margin-bottom:20px;
+    background-color:black;
+    color:rgb(0, 204, 255);
+    border:2px solid white;
+}
+.teamwork button:hover{
+    color:black;
+    border:2px solid white;
+    background-color: rgb(0, 174, 255);
+}
+.selfmanagement{   
+    display:inline-block;
+    margin:5px 10px;
+    padding:10px 30px;
+    width:27%;
+    height:65%;
+   background-color: rgb(63, 62, 62);
+   color:white; 
+   border:2px solid rgb(0, 234, 255);  
+}
+.selfmanagement:hover{
+    background-color:black;
+    border:3px solid rgb(0, 208, 255);
+    color:rgb(0, 213, 255);
+    box-shadow:10px 10px 40px 10px white;
+}
+.selfmanagement h2{
+    background-color:black;
+    border:3px solid rgb(0, 234, 255);
+    border-radius:35px;
+    color:white;
+    font-size:30px;
+    height:50px;
+    padding:0px 0px;
+    padding-top:20px;
+    padding-left:150px;
+    box-shadow: 3px 3px 3px 3px rgb(0, 170, 255);
+}
+.selfmanagement p{
+    font-size:20px;
+}
+.selfmanagement button{
+    margin-top:50px;
+    margin-bottom:20px;
+    background-color:black;
+    color:rgb(0, 200, 255);
+    border:2px solid white;
+}
+.selfmanagement button:hover{
+    color:black;
+    border:2px solid white;
+    background-color: rgb(0, 174, 255);
+}
+.communication{
+    display:inline-block;
+    margin:5px 10px;
+    padding:10px 30px;
+    width:27%;
+    height:65%;
+   background-color: rgb(63, 62, 62);
+   color:white;
+   border:2px solid rgb(0, 195, 255);
+   }
+.communication:hover{
+    background-color:black;
+    border:3px solid rgb(0, 217, 255);
+    color:rgb(0, 191, 255);
+    box-shadow:10px 10px 40px 10px white;
+}
+.communication h2{
+    background-color:black;
+    color:white;
+    border-radius:35px;
+    border:3px solid rgb(14, 10, 2);
+    height:50px;
+    padding:0px 90px;
+    padding-top:20px;
+    box-shadow: 3px 3px 3px 3px rgb(0, 208, 255);
+    font-size:30px;
+}
+   .communication p{
+    font-size:20px;
+}
+   .communication button{
+    margin-top:50px;
+    margin-bottom:20px;
+    background-color:black;
+    color:rgb(4, 16, 20);
+    border:2px solid white;
+}
+.communication button:hover{
+    color:black;
+    border:2px solid white;
+    background-color: rgb(0, 208, 255);
+}
+
+
+/*------------------------Interest and Qualities CSS Starts------------------------*/
+
+
+.work{
+    display:inline-block;
+     margin:90px 0px;
+     width:100%;
+     height:110vh;
+    background-color:black;
+ }
+ .work:hover{
+    background-color:grey;
+    transition:.8s;
+ }
+ .work h1{
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 45px;
+    margin-left: 470px;
+    margin-right: 470px;
+    padding-left:95px;
+    padding-top:13px;
+    padding-bottom:13px;
+    background-color:rgb(0, 247, 255);
+    border-radius: 50px; 
+    border:2px solid black;
+    color:white;
+ }
+ .work h1:hover{
+     border:2px solid rgb(0, 204, 255);
+     background-color: black;
+     color:white;
+     transition:.5s;
+ }
+ .LANDING{
+     display:inline-block;
+     margin:5px 10px;
+     padding:10px 30px;
+     width:27%;
+     height:75%;
+     background-color: rgb(63, 62, 62);
+    color:white;
+    border:2px solid rgb(0, 217, 255);  
+ }
+ .LANDING:hover{
+     background-color:rgb(0, 0, 0);
+     border:3px solid rgb(0, 191, 255);
+     color:rgb(5, 89, 152);
+     box-shadow:10px 10px 10px 20px rgb(104, 103, 103);
+ }
+ .LANDING h2{
+     background-color:rgb(0, 0, 0);
+     color:white;
+     border-radius:35px;
+     height:50px;
+     padding:0px 90px;
+     padding-top:20px;
+     box-shadow: 3px 3px 3px 3px rgb(0, 217, 255);
+     border:2px solid rgb(0, 229, 255);
+     font-size:30px;    
+ }
+ .LANDING WEBSITE SYSTEM p{
+     font-size:20px;
+ }
+ .LANDING button{
+     margin-top:50px;
+     margin-bottom:20px;
+     background-color:black;
+     color:rgb(64, 0, 255);
+     border:2px solid white;
+ }
+ .LANDING button:hover{
+     color:black;
+     border:2px solid white;
+     background-color: rgb(0, 191, 255);
+ }
+ .portfolio{   
+     display:inline-block;
+     margin:5px 10px;
+     padding:10px 30px;
+     width:27%;
+     height:75%;
+    background-color: rgb(63, 62, 62);
+    color:white; 
+    border:2px solid rgb(0, 225, 255);  
+ }
+ .portfolio:hover{
+     background-color:black;
+     border:3px solid rgb(0, 191, 255);
+     color:rgb(0, 195, 255);
+     box-shadow:10px 10px 10px 20px rgb(104, 103, 103);
+ }
+ .portfolio h2{
+     background-color:black;
+     border:3px solid rgb(0, 213, 255);
+     border-radius:35px;
+     color:white;
+     font-size:30px;
+     height:50px;
+     padding:0px 125px;
+     padding-top:20px;
+     box-shadow: 3px 3px 3px 3px rgb(0, 191, 255);
+ }
+ .portfolio p{
+     font-size:20px;
+ }
+ .portfolio button{
+     margin-top:50px;
+     margin-bottom:20px;
+     background-color:black;
+     color:rgb(0, 200, 255);
+     border:2px solid white;
+ }
+ .portfolio button:hover{
+     color:black;
+     border:2px solid white;
+     background-color: rgb(0, 200, 255);
+ }
+ .todolist{
+     display:inline-block;
+     margin:5px 10px;
+     padding:10px 30px;
+     width:27%;
+     height:75%;
+    background-color: rgb(63, 62, 62);
+    color:white;
+    border:2px solid rgb(0, 221, 255);
+    }
+    .todolist:hover{
+     background-color:black;
+     border:3px solid rgb(0, 255, 255);
+     color:rgb(0, 221, 255);
+     box-shadow:10px 10px 10px 20px rgb(104, 103, 103);
+ }
+    .todolist h2{
+     background-color:black;
+     color:white;
+     border-radius:35px;
+     border:3px solid rgb(0, 251, 255);
+     height:50px;
+     padding:0px 120px;
+     padding-top:20px;
+     box-shadow: 3px 3px 3px 3px rgb(0, 187, 255);
+     font-size:30px;
+ }
+    .todolist p{
+     font-size:20px;
+ }
+    .todolist button{
+     margin-top:50px;
+     margin-bottom:20px;
+     background-color:black;
+     color:rgb(0, 21, 255);
+     border:2px solid white;
+ }
+ .todolist button:hover{
+     color:black;
+     border:2px solid white;
+     background-color: rgb(0, 179, 255);
+ }
+
+
+
+ /* --------------------------Contact CSS Starts -----------------------------*/
+
+
+
+.contact{
+    width:100%;
+    height:290px;
+    background-color:black;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact:hover{
+    background-color:rgb(87, 82, 82);
+    transition:.8s;
+}
+.contact p{
+    color:white;
+    font-size:30px;
+}
+.contact .button2{
+    background-color:rgb(0, 0, 255);
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+    padding:13px 30px;
+    border-radius:30px;
+    transition:.4s;
+}
+.contact .button2:hover{
+ border:2px solid white;
+ background-color:black;
+ color:rgb(0, 13, 255);
+
+}
+
+
+/*----------------------Footer CSS Starts-----------------------------*/
+.footer{
+width:100%;
+height:60%;
+margin: 60px 0px;
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color:black;
+}
+.footer:hover{
+background-color:grey;
+transition:.8s;
+}
+.footer h1{
+    font-size:45px;
+    font-weight: bold;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(0, 255, 98);   
+}
+.social{ 
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom:20px;
+    margin-top:25px;  
+}
+.social a{
+    margin:0px 3px;
+    width:40px;
+    height:40px;
+    background-color:transparent;
+}
